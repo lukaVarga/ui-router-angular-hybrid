@@ -16,6 +16,16 @@
       "postcss"
     ]
   },
+  "module": "dist/fesm2022/uirouter-angular-hybrid.mjs",
+  "typings": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "esm2022": "./dist/esm2022/uirouter-angular-hybrid.mjs",
+      "esm": "./dist/esm2022/uirouter-angular-hybrid.mjs",
+      "default": "./dist/fesm2022/uirouter-angular-hybrid.mjs"
+    }
+  },
   "peerDependencies": {
     "@angular/core": "^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
     "@angular/upgrade": "^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
