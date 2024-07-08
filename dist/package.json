@@ -1,0 +1,43 @@
+{
+  "name": "@uirouter/angular-hybrid",
+  "version": "17.1.0",
+  "license": "MIT",
+  "checkPeerDependencies": {
+    "ignore": [
+      "postcss"
+    ]
+  },
+  "peerDependencies": {
+    "@angular/core": "^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
+    "@angular/upgrade": "^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
+    "@uirouter/angular": "^14.0.0",
+    "@uirouter/angularjs": "^1.0.30",
+    "@uirouter/core": "^6.1.0",
+    "angular": "^1.5.0"
+  },
+  "resolutions": {
+    "@uirouter/core": "^6.1.0"
+  },
+  "distDir": "dist",
+  "sideEffects": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ui-router/angular-hybrid.git"
+  },
+  "module": "fesm2022/uirouter-angular-hybrid.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/uirouter-angular-hybrid.mjs",
+      "esm": "./esm2022/uirouter-angular-hybrid.mjs",
+      "default": "./fesm2022/uirouter-angular-hybrid.mjs"
+    }
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
